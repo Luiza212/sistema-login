@@ -1,6 +1,9 @@
 const request = require('supertest');
 const app = require('../src/app');
-
+const db = require('../src/database')
+beforeEach((done) => {
+  db.run("Delete fom users", done);
+})
 describe('Testes de usuário', () => {
   const user = {
     name: 'Laysa',
