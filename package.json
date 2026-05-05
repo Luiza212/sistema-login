@@ -1,0 +1,31 @@
+{
+  "name": "sistema-login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "start": "node src/app.js",
+      "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luiza212/sistema-login.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Luiza212/sistema-login/issues"
+  },
+  "homepage": "https://github.com/Luiza212/sistema-login#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.2.1",
+    "sqlite3": "^6.0.1"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "supertest": "^7.2.2"
+  }
+}
